@@ -3,6 +3,10 @@
 Create these files inside your own folder:
 `submissions/<your-github-username>/`.
 
+In the example runs the prompt is on its own line and the user types on
+the next line. To get that, end the prompt with `\n`, as in Workshop 2:
+`input("What is your name?\n")`.
+
 ## exercise_1.py — Countdown
 
 Ask the user for a number with `input()`, cast it to `int`. Using a
@@ -23,7 +27,8 @@ Liftoff!
 
 This code should print the even numbers from 2 to 10, but it prints `2`
 forever. Copy it into `exercise_2.py`, run it (press `Ctrl+C` to stop
-it), then fix the loop so it ends.
+it), then fix the loop so it ends. After `Ctrl+C` you will see
+`KeyboardInterrupt` — that is normal, it is not the bug.
 
 ```python
 number = 2
@@ -50,7 +55,7 @@ Ask the user for a number with `input()`, cast it to `int`. Using a
 `for` loop with `range()`, add up every number from `1` to that number
 (including it) and print the total.
 
-Example run (input is `5`, because 1 + 2 + 3 + 4 + 5 = 15):
+Example run (input is `5`; 1 + 2 + 3 + 4 + 5 = 15):
 ```
 Enter a number:
 5

@@ -33,7 +33,7 @@ git config --global user.email "you@example.com"
 
 ## 4. Set up how Git will sign you in
 
-Your first push in step 9 will ask you to prove it's really you. Set
+Your first push in step 10 will ask you to prove it's really you. Set
 this up now so it doesn't surprise you later.
 
 - **Windows:** Git for Windows includes Git Credential Manager. The
